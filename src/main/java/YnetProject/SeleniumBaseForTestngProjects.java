@@ -22,4 +22,5 @@ public class SeleniumBaseForTestngProjects {
     public void seleniumClose(ChromeDriver driver) {
         driver.close();
     }
+
 }

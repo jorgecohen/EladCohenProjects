@@ -46,7 +46,6 @@ public class YnetTest {
         System.out.println("MainMenuTest end");
     }*/
 
-
     @Test
     public void MainMenuTest() throws InterruptedException {
         ChromeDriver driver =  base.SeleniumInIt("https://www.ynet.co.il/home/0,7340,L-8,00.html");
