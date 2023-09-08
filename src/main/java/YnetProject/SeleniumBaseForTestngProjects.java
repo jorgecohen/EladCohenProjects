@@ -14,7 +14,7 @@ public class SeleniumBaseForTestngProjects {
         options.addArguments("--remote-allow-origins=*"); //fix for chrome driver version 111
         WebDriverManager.chromedriver();
         ChromeDriver driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait( Duration.ofSeconds(20));
+        driver.manage().timeouts().implicitlyWait( Duration.ofSeconds(10));
 
         driver.get(url);
         return driver;
