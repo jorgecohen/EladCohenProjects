@@ -47,7 +47,6 @@ public class YnetTest {
                 driver.navigate().back();
                 System.out.println("Menu item " + (i) + " enter successfully");
             } catch (Exception e) {
-                System.out.println("Error occurred while processing menu item " + (i) + ": " + e.getMessage());
             }
         }
         WebElement mainMenuMore = driver.findElement(By.id("wcm_MenuDisplay_moreBtn"));

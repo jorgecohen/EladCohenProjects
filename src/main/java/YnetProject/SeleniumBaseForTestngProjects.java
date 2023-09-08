@@ -8,7 +8,7 @@ import java.time.Duration;
 
 public class SeleniumBaseForTestngProjects {
     public ChromeDriver SeleniumInIt(String url) {
-        System.out.println("Starting...");
+        System.out.println("Starting test :");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
         options.addArguments("--remote-allow-origins=*"); //fix for chrome driver version 111
